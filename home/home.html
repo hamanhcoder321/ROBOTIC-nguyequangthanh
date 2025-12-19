@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ROBOTIC - Trang chủ</title>
+  <!-- Bootstrap 5 -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+<!-- Header -->
+<div class="top-bar">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div></div>
+    <div class="top-bar-right d-flex align-items-center gap-3">
+      <div class="search-box">
+        <i class="bi bi-search"></i>
+        <input type="text" placeholder="Tìm kiếm">
+      </div>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+    </div>
+  </div>
+</div>
+
+<header class="main-header shadow-sm">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      
+      <!-- Logo -->
+      <a class="navbar-brand fw-bold" href="#">
+        <img src="img/Logo.png" alt="ROBOTIC" height="42">
+      </a>
+
+      <!-- Toggle mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse justify-content-end" id="mainMenu">
+        <ul class="navbar-nav align-items-lg-center gap-lg-3">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="home.html">Trang chủ</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Giới thiệu</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Khóa học</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Học online</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hợp tác</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Giáo viên</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../bao noi ve chung toi/index.html">
+              Báo nói gì về chúng tôi
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero d-flex align-items-center" 
+         style="background:url('img/welcome.png') center/cover no-repeat; min-height:500px;">
+  <div class="container text-start">
+    <h3 class="fw-bold text-dark">LOREM IPSUM</h3>
+    <h1 class="text-dark">DOLOR SIT AMET</h1> 
+   <button class="btn btn-orange btn-lg mt-3 px-5">Tìm hiểu thêm</button>
+
+  </div>
+</section>
+
+<!-- Form Section -->
+<section class="py-5">
+  <div class="container">
+
+    <div class="card shadow-lg border-0 mx-auto bg-light-green"
+         style="max-width:1100px; border-radius:16px;">
+
+      <!-- CARD BODY để tạo khung màu to -->
+      <div class="card-body p-5 p-md-6">
+
+        <h3 class="text-center text-success fw-bold mb-4">
+          BẠN MUỐN ĐƯỢC TƯ VẤN MIỄN PHÍ?
+        </h3>
+
+        <form class="row g-4 justify-content-center">
+          <!-- Hàng 1 -->
+          <div class="col-md-3">
+            <input type="text" class="form-control form-control-sm" placeholder="Họ tên phụ huynh">
+          </div>
+          <div class="col-md-3">
+            <input type="email" class="form-control form-control-sm" placeholder="Email">
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control form-control-sm" placeholder="Số điện thoại">
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control form-control-sm" placeholder="Họ tên học sinh">
+          </div>
+
+          <!-- Hàng 2 -->
+          <div class="col-md-3">
+            <input type="date" class="form-control form-control-sm">
+          </div>
+          <div class="col-md-3">
+            <select class="form-select form-select-sm">
+              <option selected>Chọn khóa học</option>
+              <option>Khối Mầm non</option>
+              <option>Khối Tiểu học</option>
+              <option>Lớp STEM tại trường</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <select class="form-select form-select-sm">
+              <option selected>Chọn khu vực gần nhất</option>
+              <option>Hà Nội</option>
+              <option>Yên Bái</option>
+              <option>TP. Hồ Chí Minh</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-register btn-sm w-100 fw-bold">
+              ĐĂNG KÝ
+            </button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ 
+
+
+
+<!-- Welcome Section -->
+<section class="welcome-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6 text-start">
+        <h2 class="fw-bold mb-2">
+          Welcome to <span class="text-info">ROBOTIC</span>
+        </h2>
+
+        <p class="fw-semibold mb-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+
+        <div class="line mb-3"></div>
+
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro perspiciatis, eveniet saepe unde laborum aperiam ipsa obcaecati nihil architecto. Commodi consequuntur similique veniam? Officia odit, qui eos architecto incidunt velit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus non repellat molestias nisi est aliquid sequi harum similique mollitia, cupiditate iusto iure magnam quae enim, ab eum quam porro? Earum!
+        </p>
+
+        <p class="text-muted">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur.
+        </p>
+
+        <a href="#" class="btn btn-orange px-4 mt-3">
+          TÌM HIỂU THÊM
+        </a>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6 text-center mt-4 mt-lg-0">
+        <img src="img/welcome.png" alt="Welcome Robotic" class="img-fluid welcome-img">
+      </div>
+      <section class="training-section py-5">
+  <div class="container">
+
+    <!-- Title -->
+    <div class="text-start mb-5">
+  <h3 class="fw-bold">
+    Lĩnh vực <span class="text-info">ĐÀO TẠO</span>
+  </h3>
+   <p class="fw-semibold mb-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+   <div class="line mb-3"></div>
+</div>
+
+
+    <!-- Cards -->
+    <div class="row g-4 justify-content-center">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="training-card">
+          <img src="img/ROBOT & LẬP TRÌ TƯ DUY.png" alt="">
+          <div class="training-content red">
+            <h6>ROBOT & LẬP TRÌ TƯ DUY</h6>
+            <p>3–10 tuổi</p>
+            <div class="d-flex justify-content-end"><a href="#" class="btn btn-sm btn-outline-light"> > Tìm hiểu thêm</a>
+</div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="training-card">
+          <img src="img/KHÓA HỌC ONLINE.png" alt="">
+          <div class="training-content green">
+            <h6>KHÓA HỌC ONLINE</h6>
+            <p>6–16 tuổi</p>
+      <div class="d-flex justify-content-end"><a href="#" class="btn btn-sm btn-outline-light"> > Tìm hiểu thêm</a>
+</div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="training-card">
+          <img src="img/LẬP TRÌNH & PHÁT TRIỂN ỨNG DỤNG.png" alt="">
+          <div class="training-content blue">
+            <h6>LẬP TRÌNH & PHÁT TRIỂN ỨNG DỤNG</h6>
+            <p>8–18 tuổi</p>
+           <div class="d-flex justify-content-end"><a href="#" class="btn btn-sm btn-outline-light"> > Tìm hiểu thêm</a>
+</div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    </div>
+  </div>
+</section>
+<section class="student-product-section">
+  <div class="container">
+
+    <!-- Title -->
+    <div class="row align-items-center mb-4">
+      <div class="col-md-4">
+        <h3 class="fw-bold mb-1">
+          Sản phẩm <span class="fw-bold">HỌC VIÊN</span>
+        </h3>
+      </div>
+
+      <div class="col-md-8">
+        <p class="text-muted mb-0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </div>
+
+    <!-- Product Images -->
+    <div class="row g-3 mb-4">
+      <div class="col-md-3 col-6">
+        <img src="img/SẢN PHẨM 1.png" class="img-fluid product-img" alt="">
+      </div>
+      <div class="col-md-3 col-6">
+        <img src="img/SẢN PHẨM 2.png" class="img-fluid product-img" alt="">
+      </div>
+      <div class="col-md-3 col-6">
+        <img src="img/SẢN PHẨM 3.png" class="img-fluid product-img" alt="">
+      </div>
+      <div class="col-md-3 col-6">
+        <img src="img/SẢN PHẨM 4.png" class="img-fluid product-img" alt="">
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="text-center">
+      <a href="#" class="btn btn-outline-secondary px-4">
+        XEM TOÀN BỘ SẢN PHẨM
+      </a>
+    </div>
+
+  </div>
+</section>
+<section class="news-section py-5">
+  <div class="container">
+
+    <!-- Title -->
+    <div class="text-start mb-4">
+      <h3 class="fw-bold">
+        Tin tức <span class="text-info">MỚI NHẤT</span>
+      </h3>
+      <p class="fw-semibold mb-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+   <div class="line mb-3"></div>
+</div>
+
+    <!-- News cards -->
+    <div class="row g-4">
+
+      <!-- Item 1 -->
+      <div class="col-md-4">
+        <div class="news-card">
+          <img src="img/t1.png" alt="">
+          <div class="news-body">
+            <h6>leverage agile frameworks to provide a synopsis for</h6>
+            <p>
+              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.
+            </p>
+            <div class="news-meta">
+              <span>29/03/2024</span>
+              <span>Xem chi tiết</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="col-md-4">
+        <div class="news-card">
+          <img src="img/t2.png" alt="">
+          <div class="news-body">
+            <h6>leverage agile frameworks to provide a synopsis for</h6>
+            <p>
+              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.
+            </p>
+            <div class="news-meta">
+              <span>29/03/2024</span>
+              <span>Xem chi tiết</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="col-md-4">
+        <div class="news-card">
+          <img src="img/t3.png" alt="">
+          <div class="news-body">
+            <h6>leverage agile frameworks to provide a synopsis for</h6>
+            <p>
+              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.
+            </p>
+            <div class="news-meta">
+              <span>29/03/2024</span>
+              <span>Xem chi tiết</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="partner-robotic py-4">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Title -->
+      <div class="col-md-3 mb-3 mb-md-0">
+        <h5 class="fw-bold mb-0">
+          Đối tác<br>
+          <span class="text-info">ROBOTIC →</span>
+        </h5>
+      </div>
+
+      <!-- Logos -->
+      <div class="col-md-9">
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <div class="partner-box">LOGO 4</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="partner-box">LOGO 3</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="partner-box">LOGO 2</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="partner-box">LOGO 1</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<footer class="footer pt-5">
+<div class="container">
+<div class="row g-4">
+
+
+<!-- Logo + search -->
+<div class="col-md-4">
+<img src="img/Logo.png" class="img-fluid mb-3" alt="Article">
+<div class="input-group mb-2">
+<input type="text" class="form-control" placeholder="Đăng ký nhận bản tin">
+<button class="btn btn-outline-secondary"><i class="bi bi-send"></i></button>
+</div>
+<select class="form-select form-select-sm w-75">
+<option>Chọn liên kết website</option>
+</select>
+</div>
+
+
+<!-- Trụ sở chính -->
+<div class="col-md-3">
+  <h6 class="fw-bold mb-3">
+    <i class="bi bi-geo-alt-fill text-info me-2"></i>
+    TRỤ SỞ CHÍNH
+  </h6>
+
+  <p class="mb-2">
+    <i class="bi bi-building text-info me-2"></i>
+    Lorem ipsum dolor sit amet, consectetur
+  </p>
+
+  <p class="mb-2">
+    <i class="bi bi-telephone-fill text-info me-2"></i>
+    0985.888.332
+  </p>
+
+  <p class="mb-0">
+    <i class="bi bi-envelope-fill text-info me-2"></i>
+    robotic@gmail.com
+  </p>
+</div>
+
+
+<!-- Sitemap -->
+<div class="col-md-3">
+<h6>SITEMAP</h6>
+<ul class="list-unstyled">
+<li><a href="#">Trang chủ</a></li>
+<li><a href="#">Giới thiệu</a></li>
+<li><a href="#">Khóa học</a></li>
+<li><a href="#">Học Online</a></li>
+<li><a href="#">Hợp tác</a></li>
+<li><a href="#">Học viên</a></li>
+</ul>
+</div>
+
+
+<!-- Social -->
+<div class="col-md-2 text-md-end">
+<img src="img/tích.png" alt="Đã thông báo" class="img-fluid mb-3">
+<div class="d-flex justify-content-md-end gap-2">
+<a href="#"><i class="bi bi-facebook"></i></a>
+<a href="#"><i class="bi bi-instagram"></i></a>
+<a href="#"><i class="bi bi-twitter"></i></a>
+<a href="#"><i class="bi bi-youtube"></i></a>
+</div>
+</div>
+
+
+</div>
+
+
+<hr class="my-4">
+
+
+<div class="text-center small text-muted pb-3">
+© Copyright 2020 ROBOTIC
+</div>
+</div>
+</footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
